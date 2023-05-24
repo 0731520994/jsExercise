@@ -2,7 +2,7 @@
 Question 1
 
 
-
+/*
 1. Variable = containers that are used to store values
 
 2. Value = information that can be stored in a variable. like a Number, string , text , object, array.
@@ -26,6 +26,33 @@ Question 1
 8. Hoisting = means you can use variables and functions before they are actually declared in your code.
 
 Variable scoping = refers to the visibility or accessibility of variables within different parts of your code. In JavaScript, for example to access a variable in global scope or local scope
+*/
+
+/*
+Question 2
 
 
+const firstName: "Mongikazi";
+const lastName: "Dlanjwa";
+const age: 25;
+const subjects: [ "HTML , JavaScript , CSS"];
+const address {
+Street Name: "Ndwana Crescent";
+Street Number: 11640;
+Suburb: "Philippi";
+City: "Cape Town";
+Country: "South Africa";
+};
 
+
+console.log("First Name:", firstName);
+console.log("Last Name:", lastName);
+console.log("Age:", age);
+console.log("Subjects:", subjects);
+console.log("Address:");
+console.log("Street Name:", address.streetName);
+console.log("Street Number:", address.streetNumber);
+console.log("Suburb:", address.suburb);
+console.log("City:", address.city);
+console.log("Country:", address.country);
+*/
