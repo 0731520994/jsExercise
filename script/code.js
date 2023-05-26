@@ -1,8 +1,8 @@
-
+/*
 Question 1
 
 
-/*
+
 1. Variable = containers that are used to store values
 
 2. Value = information that can be stored in a variable. like a Number, string , text , object, array.
@@ -26,33 +26,74 @@ Question 1
 8. Hoisting = means you can use variables and functions before they are actually declared in your code.
 
 Variable scoping = refers to the visibility or accessibility of variables within different parts of your code. In JavaScript, for example to access a variable in global scope or local scope
-*/
 
-/*
+
+
+let fullName = 'Mongikazi Dlanjwa'
+
+function fullname(name) {
+    console.log(name);
+}
+
+
 Question 2
 
+/*
 
-const firstName: "Mongikazi";
-const lastName: "Dlanjwa";
-const age: 25;
-const subjects: [ "HTML , JavaScript , CSS"];
-const address {
-Street Name: "Ndwana Crescent";
-Street Number: 11640;
-Suburb: "Philippi";
-City: "Cape Town";
-Country: "South Africa";
+let personalDetails = {
+    firstname : '',
+    lastname : '',
+    Age : 25,
 };
 
+console.log(student.firstname, student.lastname, student.Age);
 
-console.log("First Name:", firstName);
-console.log("Last Name:", lastName);
-console.log("Age:", age);
-console.log("Subjects:", subjects);
-console.log("Address:");
-console.log("Street Name:", address.streetName);
-console.log("Street Number:", address.streetNumber);
-console.log("Suburb:", address.suburb);
-console.log("City:", address.city);
-console.log("Country:", address.country);
+
+let subjects = ['CSS', JavaScript', 'HTML', 'Bootsrap']
+
+console.log(subjects[0], subjects[1], subjects[2]), subjects[3];
+
+let address = {
+    streetName : 'Ndwana Crescent',
+    streetNumber : 11640,
+    suburb : 'Philippi',
+    city : 'CapeTown',
+    country : 'South Africa'
+}
+
+console.log(address.streetName, address.streetNumber, address.suburb, address.city, address.country);
+
 */
+
+let number1 = document.querySelector('#number1')
+let number2 =document.querySelector('#number2')
+let operator = document.querySelector('#operator')
+let result=document.querySelector('#lblResult')
+
+
+function calculate() {
+    
+
+switch (operator.value) {
+    case "+":
+        result.innerText = eval(number1.value +'+'+ number2.value);
+        break;
+    case "-":
+        result.innerText = eval(number1.value +'-'+  number2.value);
+        break;
+    case "*":
+        result.innerText = eval(number1.value +'*'+ number2.value);
+        break;
+    case "/":
+        result.innerText = eval(number1.value +'/'+ number2.value);
+        break;
+    default:
+        result.innerText = "Invalid 👎, Please select the available operators";
+}
+}
+
+
+
+   
+
+
