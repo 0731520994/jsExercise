@@ -94,36 +94,88 @@ switch (operator.value) {
 */
 
 
-   
+/*   
 
 
 Question 4
 
-subject= "programming"
-reversed_subject=subject[::-1]
-print(reversed_subject)
+let subject= "programming";
+console.log(subject.split().reverse().join(''))
 
-Question 5
+
+// Question 5
 
 
 
 let people= [
+    person1={
+        firstname: "Mongikazi",
+         dob : new Date("1997-08-21"),
+
+    },person2={
+        firstname: "Tom",
+        dob :new Date("2000-08-02") ,
+    }
+];
+
+
+
+let current_date=new Date()
+
+// if 'people' has a firstname of Mongi then...
+if (people['firstname'] == "Mongikazi") {
+
+    // We are getting the keys of our objects and retrieving their `dob and age`
+   
+    age = current_date.getFullYear - people[0].dob.getFullYear
     
-        "name": "Mongikazi"
-         "dob": "1997-08-21";
+    //  ..if the current date is greater than her 'd.o.b', we want to create a variable to hold the keys next birthday
 
-         "name": "Tom"
-         "dob" : "2000-08-02"
-]
-
-
-    if person["name"] == "Mongikazi":
-        dob = datetime.datetime.strptime(person["dob"]).date()
-        age = current_date.year - dob.year
-        if current_date.month < dob.month 
-        next_birthday = datetime.date(current_date.year, dob.month, dob.day)
-        if next_birthday < current_date:
-            next_birthday = datetime.date(current_date.year + 1, dob.month, dob.day)
+    }if (current_date.month < people[0].dob.month ) {
+        next_birthday = datetime.date(current_date.year, people[0].dob.month, people[0].dob.day)
+    
+    // ... 
+    }if (next_birthday < current_date) {
+        next_birthday = datetime.date(current_date.year + 1, people[0].dob.month, dob.day)
         days_left = (next_birthday - current_date).days
-        
-        print(person["name"] + "'s age is", age, "and there are", days_left, "days left until his birthday.")
+    }
+    
+    console.log(people[firstname] + "' age is", age, "and there are", days_left, "days left until his birthday.");
+
+/*
+
+            Question 6 
+
+
+
+ 
+switch (marks) {
+    case "100%" :
+    System.out.println("You're amazing");
+    break;
+  case "90-99":
+    System.out.println("Well Done");
+    break;
+    case "80-89":
+    System.out.println("Way to go");
+    break;
+    case "75-79":
+    System.out.println("Keep it up");
+    break;
+    case "60-74":
+    System.out.println("You did good");
+    break;
+    case "50-59":
+    System.out.println("That was good");
+    break;
+    case "Below 50":
+    System.out.println("You failed");
+    break;
+};*/
+
+friends= ['Henk','Peter', 'Jack', 'Lerato', 'Julius']
+console.log(friends.slice( 2, 4)) 
+
+
+
+
