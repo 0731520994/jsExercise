@@ -103,4 +103,27 @@ subject= "programming"
 reversed_subject=subject[::-1]
 print(reversed_subject)
 
+Question 5
 
+
+
+let people= [
+    
+        "name": "Mongikazi"
+         "dob": "1997-08-21";
+
+         "name": "Tom"
+         "dob" : "2000-08-02"
+]
+
+
+    if person["name"] == "Mongikazi":
+        dob = datetime.datetime.strptime(person["dob"]).date()
+        age = current_date.year - dob.year
+        if current_date.month < dob.month 
+        next_birthday = datetime.date(current_date.year, dob.month, dob.day)
+        if next_birthday < current_date:
+            next_birthday = datetime.date(current_date.year + 1, dob.month, dob.day)
+        days_left = (next_birthday - current_date).days
+        
+        print(person["name"] + "'s age is", age, "and there are", days_left, "days left until his birthday.")
