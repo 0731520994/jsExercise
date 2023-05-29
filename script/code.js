@@ -64,7 +64,7 @@ let address = {
 console.log(address.streetName, address.streetNumber, address.suburb, address.city, address.country);
 
 */
-
+/*
 let number1 = document.querySelector('#number1')
 let number2 =document.querySelector('#number2')
 let operator = document.querySelector('#operator')
@@ -91,9 +91,16 @@ switch (operator.value) {
         result.innerText = "Invalid 👎, Please select the available operators";
 }
 }
-
+*/
 
 
    
+
+
+Question 4
+
+subject= "programming"
+reversed_subject=subject[::-1]
+print(reversed_subject)
 
 
